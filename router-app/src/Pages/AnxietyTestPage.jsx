@@ -103,7 +103,8 @@ const styles = {
     textAlign: 'center',
     padding: '8rem 2rem 4rem',
     backgroundColor: '#fbf9f4',
-    color: '#2e2e2e'
+    color: '#2e2e2e',
+    
   },
   backButton: {
     position: 'absolute',
@@ -173,7 +174,7 @@ const styles = {
     fontSize: '1.1rem',
     marginBottom: '0.5rem',
     color: '#426d56',
-    marginRight: '0.5rem',
+    
   },
   answerCircle: {
     width: '20px',

@@ -112,7 +112,8 @@ const styles = {
     textAlign: 'center',
     padding: '8rem 2rem 4rem',
     backgroundColor: '#fbf9f4',
-    color: '#2e2e2e'
+    color: '#2e2e2e',
+    minHeight: '100vh'
   },
   backButton: {
     position: 'absolute',

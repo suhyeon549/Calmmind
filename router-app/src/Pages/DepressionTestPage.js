@@ -172,6 +172,7 @@ const styles = {
     fontSize: '1.2rem',
     marginBottom: '0.5rem',
     color: '#426d56',
+    
   },
   answerCircle: {
     width: '20px',

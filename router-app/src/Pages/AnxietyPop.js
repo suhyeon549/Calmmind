@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./AnxietyPop.css"; // ✨ CSS 애니메이션용
+import "./AnxietyPop.css"; 
 import DearAnxiety from "./DearAnxiety";
 
 

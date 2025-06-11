@@ -16,7 +16,7 @@ const classicQuotes = [
     author: '윌리엄 셰익스피어',
     summary: '희곡 「십이야」의 말로, 위대함과 잠재력에 대한 격려의 메시지입니다.',
     image: 'book2.jpg',
-    links: { buy: 'https://www.kyobobook.co.kr/', ebook: 'https://www.millie.co.kr/v3/brand?utm_source=google&utm_medium=cpc&utm_campaign=subs&utm_content=brand_millie&utm_term=%EB%B0%80%EB%A6%AC%EC%9D%98%EC%84%9C%EC%9E%AC&gad_source=1&gad_campaignid=22525107743&gbraid=0AAAAAC-SaZeZ5nGoje2oy4JtWMocf2f3v&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4auJzX0zmZ_c2dLY2wCrK2q14q1yAbk7VlaqQ8rMgwxVxr5yq2EE5caAuMyEALw_wcB' }
+    links: { buy: 'https://www.yes24.com/', ebook: 'https://www.millie.co.kr/v3/brand?utm_source=google&utm_medium=cpc&utm_campaign=subs&utm_content=brand_millie&utm_term=%EB%B0%80%EB%A6%AC%EC%9D%98%EC%84%9C%EC%9E%AC&gad_source=1&gad_campaignid=22525107743&gbraid=0AAAAAC-SaZeZ5nGoje2oy4JtWMocf2f3v&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4auJzX0zmZ_c2dLY2wCrK2q14q1yAbk7VlaqQ8rMgwxVxr5yq2EE5caAuMyEALw_wcB' }
   },
   {
     quote: '“세상이 끝나는 방식은 폭발이 아니라 속삭임이다.”',
@@ -48,7 +48,7 @@ const classicQuotes = [
     author: '퍼시 셸리',
     summary: '완결된 권력의 허무함을 보여주는 셸리의 소네트입니다.',
     image: 'book6.jpg',
-    links: { buy: 'https://www.kyobobook.co.kr/', ebook: 'https://www.millie.co.kr/v3/brand?utm_source=google&utm_medium=cpc&utm_campaign=subs&utm_content=brand_millie&utm_term=%EB%B0%80%EB%A6%AC%EC%9D%98%EC%84%9C%EC%9E%AC&gad_source=1&gad_campaignid=22525107743&gbraid=0AAAAAC-SaZeZ5nGoje2oy4JtWMocf2f3v&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4auJzX0zmZ_c2dLY2wCrK2q14q1yAbk7VlaqQ8rMgwxVxr5yq2EE5caAuMyEALw_wcB' }
+    links: { buy: 'https://www.yes24.com/', ebook: 'https://www.millie.co.kr/v3/brand?utm_source=google&utm_medium=cpc&utm_campaign=subs&utm_content=brand_millie&utm_term=%EB%B0%80%EB%A6%AC%EC%9D%98%EC%84%9C%EC%9E%AC&gad_source=1&gad_campaignid=22525107743&gbraid=0AAAAAC-SaZeZ5nGoje2oy4JtWMocf2f3v&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4auJzX0zmZ_c2dLY2wCrK2q14q1yAbk7VlaqQ8rMgwxVxr5yq2EE5caAuMyEALw_wcB' }
   },
   {
     quote: '“모든 동물은 평등하다. 그러나 어떤 동물은 더 평등하다.”',
@@ -64,7 +64,7 @@ const classicQuotes = [
     author: '제인 오스틴',
     summary: '사회적 편견과 오해가 사랑을 방해할 수 있음을 시사하는 대표 문구입니다.',
     image: 'book8.jpg',
-    links: { buy: 'https://www.kyobobook.co.kr/', ebook: 'https://www.millie.co.kr/v3/brand?utm_source=google&utm_medium=cpc&utm_campaign=subs&utm_content=brand_millie&utm_term=%EB%B0%80%EB%A6%AC%EC%9D%98%EC%84%9C%EC%9E%AC&gad_source=1&gad_campaignid=22525107743&gbraid=0AAAAAC-SaZeZ5nGoje2oy4JtWMocf2f3v&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4auJzX0zmZ_c2dLY2wCrK2q14q1yAbk7VlaqQ8rMgwxVxr5yq2EE5caAuMyEALw_wcB' }
+    links: { buy: 'https://www.yes24.com/', ebook: 'https://www.millie.co.kr/v3/brand?utm_source=google&utm_medium=cpc&utm_campaign=subs&utm_content=brand_millie&utm_term=%EB%B0%80%EB%A6%AC%EC%9D%98%EC%84%9C%EC%9E%AC&gad_source=1&gad_campaignid=22525107743&gbraid=0AAAAAC-SaZeZ5nGoje2oy4JtWMocf2f3v&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4auJzX0zmZ_c2dLY2wCrK2q14q1yAbk7VlaqQ8rMgwxVxr5yq2EE5caAuMyEALw_wcB' }
   },
   {
     quote: '“존경받으며 살 거라면, 시간보다 위대한 꿈을 가져라.”',
@@ -78,7 +78,7 @@ const classicQuotes = [
     quote: '“한겨울 한가운데서, 나는 내 안에 꺾이지 않는 여름이 있음을 알았다.”',
     book: '위대한 나의 여름',
     author: '알베르 카뮈',
-    summary: '카뮈의 산문 『결혼, 여름름』에서, 고통 속에서도 내면의 불굴의 의지를 표현한 유명한 명언입니다.',
+    summary: '카뮈의 산문 『결혼, 여름』에서, 고통 속에서도 내면의 불굴의 의지를 표현한 유명한 명언입니다.',
     image: 'book10.jpg',
     links: { buy: 'https://www.yes24.com/', ebook: 'https://www.millie.co.kr/v3/brand?utm_source=google&utm_medium=cpc&utm_campaign=subs&utm_content=brand_millie&utm_term=%EB%B0%80%EB%A6%AC%EC%9D%98%EC%84%9C%EC%9E%AC&gad_source=1&gad_campaignid=22525107743&gbraid=0AAAAAC-SaZeZ5nGoje2oy4JtWMocf2f3v&gclid=Cj0KCQjw0qTCBhCmARIsAAj8C4auJzX0zmZ_c2dLY2wCrK2q14q1yAbk7VlaqQ8rMgwxVxr5yq2EE5caAuMyEALw_wcB' }
   }

@@ -9,7 +9,7 @@ const NatureSound = () => {
     { name: "비", icon: "Rain.png", emoji: "🌧", file: "Rain Heavy Loud__.mp3" },
     { name: "바람", icon: "Wind.png", emoji: "🌲", file: "Wind__.mp3" },
     { name: "파도", icon: "Wave.png", emoji: "🌊", file: "Waves__.mp3" },
-    { name: "새소리", icon: "Bird_.png", emoji: "🐦", file: "bird.mp3" },
+    { name: "새소리", icon: "Bird_.png", emoji: "🐦", file: "Bird.mp3" },
     { name: "장작", icon: "Fire.png", emoji: "🔥", file: "Fire.mp3" },
     { name: "번개", icon: "lightning_.png", emoji: "🌩", file: "Thunder__.mp3" },
     { name: "끓는 소리", icon: "Boil.png", emoji: "🍵", file: "PourBoiling__.mp3" },

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import RecordModal from './RecordModal'; // ⭐ RecordModal 컴포넌트 import
+import RecordModal from './RecordModal'; 
 import CheckIntroAndTest from './CheckIntroAndTest';
 
 const howToList = [
@@ -35,7 +35,7 @@ const Breathe = () => {
   const [anxietyRecords, setAnxietyRecords] = useState([]);
 
 
-  // ⭐ 기록 불러오기
+  // 기록 불러오기
   useEffect(() => {
     const savedDepressionRecords = JSON.parse(localStorage.getItem('depressionTestRecords')) || [];
     const savedAnxietyRecords = JSON.parse(localStorage.getItem('anxietyTestRecords')) || [];
