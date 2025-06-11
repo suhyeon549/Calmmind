@@ -12,7 +12,8 @@ const Home = () => {
             playsInline
             className="background-video"
           >
-            <source src="/videos/Main_Video_RE.mp4" type="video/mp4" />
+            <source src={process.env.PUBLIC_URL + "/Videos/Main_Video_RE.mp4"} type="video/mp4" />
+
           </video>
       
           <div className="overlay-text red-hat-display">
@@ -42,7 +43,8 @@ const Home = () => {
             playsInline
             className="footer-video"
           >
-            <source src="/videos/Main_Video_2_RE.mp4" type="video/mp4" />
+            <source src={process.env.PUBLIC_URL + "/Videos/Main_Video_2_RE.mp4"} type="video/mp4" />
+
           </video>
           <div className="footer-overlay">
             <h2>Digital Therapy</h2>

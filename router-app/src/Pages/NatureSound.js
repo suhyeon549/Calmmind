@@ -25,7 +25,7 @@ const NatureSound = () => {
   ];
 
   const toggleSound = (name, file) => {
-    const audio = new Audio(`/mp3/${file}`);
+    const audio = new Audio(process.env.PUBLIC_URL + `/mp3/${file}`);
     audio.loop = true;
 
     setActiveSounds(prev => {
@@ -60,7 +60,7 @@ const NatureSound = () => {
       <div style={styles.grid}>
         {sounds.map((sound, index) => (
           <div key={index} style={styles.item}>
-            <img src={`/Icon/${sound.icon}`} alt={sound.name} style={styles.icon} />
+           <img src={process.env.PUBLIC_URL + `/Icon/${sound.icon}`} alt={sound.name} style={styles.icon} />
             <p style={styles.label}>{sound.emoji} {sound.name}</p>
             <input
               type="checkbox"

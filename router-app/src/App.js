@@ -12,13 +12,13 @@ import AnxietyTestPage from './Pages/AnxietyTestPage';
 import AnxietyResultPage from './Pages/AnxietyResultPage';
 import CopyCalm from './Pages/CopyCalm';
 import Footer from './Pages/Footer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Navbar/>
             <Routes>
             <Route path="/" element ={<Home/>}/>
@@ -34,7 +34,7 @@ function App() {
             <Route path="/CopyCalm" element ={<CopyCalm/>}/>
             </Routes>
             <Footer/>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 

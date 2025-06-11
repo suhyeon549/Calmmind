@@ -14,14 +14,15 @@ const luckyColors = ['Red', 'Blue', 'Green', 'Yellow', 'Purple', 'Pink', 'White'
 const luckyItems = ['열쇠고리', '노트북', '책', '머그컵', '목걸이', '반지', '시계', '가방', '볼펜'];
 
 const luckyImages = [
-  '/Images/image143.png',
-  '/Images/image144.png',
-  '/Images/image145.png',
-  '/Images/image146.png',
-  '/Images/image147.png',
-  '/Images/image148.png',
-  '/Images/image149.png',
+  process.env.PUBLIC_URL + '/Images/image143.png',
+  process.env.PUBLIC_URL + '/Images/image144.png',
+  process.env.PUBLIC_URL + '/Images/image145.png',
+  process.env.PUBLIC_URL + '/Images/image146.png',
+  process.env.PUBLIC_URL + '/Images/image147.png',
+  process.env.PUBLIC_URL + '/Images/image148.png',
+  process.env.PUBLIC_URL + '/Images/image149.png',
 ];
+
 
 const getRandomItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 

@@ -140,7 +140,7 @@ const ClassicQuoteSection = () => {
         <div style={styles.modalOverlay}>
           <div style={styles.modalContent}>
             <button onClick={() => setShowQuoteModal(false)} style={styles.closeButton}>X</button>
-            <img src={`/images/${selectedBookInfo.image}`} alt={selectedBookInfo.book} style={styles.modalImage} />
+            <img src={process.env.PUBLIC_URL + `/Images/${selectedBookInfo.image}`} alt={selectedBookInfo.book} style={styles.modalImage} />
             <h2>{selectedBookInfo.book}</h2>
             <p>저자: {selectedBookInfo.author}</p>
             <p style={{ marginTop: '1rem', fontStyle: 'italic' }}>{selectedBookInfo.summary}</p>
