@@ -1,0 +1,129 @@
+.video-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  background: 
+  linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+
+}
+
+.overlay-text {
+  position: absolute;
+  top: 52%;
+  left: 8%;
+  transform: translateY(-50%);
+  color: #abd3e1;
+  text-align: left;
+  font-size: 90px;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+.red-hat-display {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Regular weight, 원하면 500/700도 가능 */
+  font-style: normal;
+  
+}
+
+
+.overlay-text p {
+  margin: 0;            
+  line-height: 1.2;    
+  letter-spacing: 15px;
+}
+
+.overlay-text .subtitle {
+  margin-top: 3rem;   
+  font-size: 20px;
+  line-height: 0.4; 
+  color: rgba(255, 255, 255, 0.85);
+  
+}
+
+.overlay-text .subtitle h5{
+  margin-top: 3rem;   
+  font-size: 20px;
+  line-height: 0; 
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 350;
+}
+
+
+.color-section {
+  background-color: #fbf2e9;
+  padding: 20rem 2rem 1rem;  
+  text-align: center;
+  min-height: 80vh;
+  text-Align: center;
+  font-size: 24px;
+  line-height: 2;
+  font-weight: 1px;
+  color: #426d56;
+}
+.footer-video-section {
+  position: relative;
+  height: 100vh;
+  background-color: #ccc; 
+  overflow: hidden;
+}
+
+.footer-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.footer-overlay {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4rem 5% 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+
+.footer-overlay h2 {
+  font-size: 80px;
+  font-weight: 400;
+  margin-top: 10rem; 
+}
+
+
+.footer-overlay div:last-child {
+  margin-top: 22rem;  
+}
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+  
