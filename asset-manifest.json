@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Calmmind/static/css/main.9a789c0f.css",
-    "main.js": "/Calmmind/static/js/main.ee51b479.js",
+    "main.js": "/Calmmind/static/js/main.36e6c17c.js",
     "static/js/453.0b4b0abe.chunk.js": "/Calmmind/static/js/453.0b4b0abe.chunk.js",
     "index.html": "/Calmmind/index.html",
     "main.9a789c0f.css.map": "/Calmmind/static/css/main.9a789c0f.css.map",
-    "main.ee51b479.js.map": "/Calmmind/static/js/main.ee51b479.js.map",
+    "main.36e6c17c.js.map": "/Calmmind/static/js/main.36e6c17c.js.map",
     "453.0b4b0abe.chunk.js.map": "/Calmmind/static/js/453.0b4b0abe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a789c0f.css",
-    "static/js/main.ee51b479.js"
+    "static/js/main.36e6c17c.js"
   ]
 }
