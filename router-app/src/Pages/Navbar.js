@@ -73,7 +73,7 @@ useEffect(() => {
             color: isDark ? "#426d56" : "#fff",
           }}
         >
-          Calmind
+          Calmmind
         </h2>
       </Link>
 
